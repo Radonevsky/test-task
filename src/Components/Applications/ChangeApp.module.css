@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.changeAppWindow {
+    position: fixed;
+    right: 0px;
+    top: 65px;
+    width:900px;
+    height:700px;
+    display: block;
+    background-color: #ecf3f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: #ecf3f7;
+}
+.head {
+    display: flex;
+    width: 975px;
+    height: 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    background-color: #1a4876;
+}
+.title {
+    margin: auto auto auto 37px;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+.appName {
+    margin: auto auto auto 0px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+
+}
+.close {
+    margin: auto;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.bodyGrid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 500px;
+}
+.description, .comments {
+    margin-top: 22px;
+    margin-left: 42px;
+    color: #9f9ea7;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.descriptionBody, .comments {
+    margin-top: 10px;
+    color: #060606;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+}
+.addComment{
+    margin-top: 50px;
+
+}
+.description textarea {
+    margin-top: 10px;
+    resize: none;
+    font-family: Ubuntu;
+    width: 625px;
+    border-radius: 5px;
+    height: 100px;
+}
+.description button{
+    width: 150px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #008cf0;
+
+    margin-top: 25px;
+}
+.saveButtonDiv {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.comments {
+    margin-top: 50px;
+    color: #9f9ea7;
+}
+.commentator {
+    color: #060606;
+
+}
+.comments div{
+    margin-top: 10px;
+    color: #060606
+}
+
+

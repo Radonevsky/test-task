@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.columnsWrapper {
+    display: grid;
+    width: 818px;
+    grid-template-columns: 8px 116px 418px 200px 182px;
+    grid-template-rows: 54px;
+    cursor: pointer;
+}
+.id {
+    padding-left: 32px;
+}
+.itemValue {
+    padding-left: 14px;
+}
+.containerName{
+    display: flex;
+}
+.name{
+    margin: auto 0px;
+}
+.itemValue, .id, .name {
+    color: #525460;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.itemValue, .id {
+    padding-top: 20px;
+}
+
+.priorityContainer{
+    margin-left: 3px;
+    width: 5px;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 2px;
+
+}
+.statusApp {
+    width: 140px;
+    height: 22px;
+    border-radius: 11px;
+    margin-top: 16px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    padding-top: 4px;
+}
+.itemValue, .id, .pinkStickContainer, .statusContainer, .containerName {
+    border-bottom: 1px solid #eef1f4;
+}
