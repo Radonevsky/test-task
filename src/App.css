@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: grid;
+  width: 1200px;
+  grid-template-areas: "n h" "n a";
+  grid-template-columns: 95px 1505px;
+  grid-template-rows: 65px 785px;
+}
+
+.cap {
+  display: block;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #404147;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+
+}

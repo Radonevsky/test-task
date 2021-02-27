@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.applications {
+    grid-area: a;
+    background-color: #ffffff;
+    margin-top: 7px;
+}
+
+.head button {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #008cf0;
+    margin-left: 265px;
+    margin-top: 25px;
+}
+.nameButton {
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.columnsWrapper {
+    display: grid;
+    margin-top: 23px;
+    width: 818px;
+    grid-template-columns: 116px 418px 160px 162px;
+    grid-template-rows: 22px;
+}
+.id {
+    padding-left: 52px;
+}
+.itemName {
+    padding-left: 14px;
+    border-left: 1px solid #e2e7ea;
+}
+.itemName, .id {
+    color: #404147;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.bottomBorder {
+    width: 1500px;
+    height: 1px;
+    box-shadow: 0 0 10px rgba(94, 96, 109, 0.2);
+    background-color: #dae0e7;
+    margin-top: 11px;
+    margin-left: 3px;
+}

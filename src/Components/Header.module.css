@@ -1,0 +1,23 @@
+.header {
+    grid-area: h;
+    width: 1600px;
+    height: 65px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    background-color: #d1e0ed;
+}
+.header input {
+    width: 680px;
+    height: 40px;
+    box-shadow: 0 0 7px rgba(0, 140, 240, 0.15), inset -1px 0 7px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    border: 1px solid #42aaff;
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.header img {
+    margin-top: 26px;
+    margin-left: -32px;
+    width: 19px;
+    height: 19px;
+}
